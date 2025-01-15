@@ -1,0 +1,75 @@
+.pageBg {
+    min-height: 100vh;
+    background: linear-gradient(to right top, #3965e9a9, #0a8df8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.cartcontainer{
+        background: white;
+        min-height: 80vh;
+        width: 80%;
+        display: flexbox;
+        flex-direction: column;
+        background: linear-gradient(
+            rgba(255, 255, 255, 0.428),
+            rgba(255,255,255,0.3) 
+        );
+        position: absolute;
+        top: 8%;
+        align-items: flex-end;
+        backdrop-filter: blur(30rem);
+        border-radius: 1rem;
+           
+    }   
+
+
+
+
+
+
+
+.Mathcontainer{
+    background: white;
+    min-height: 9vh;
+    width: 15%;
+    display: flexbox;
+    flex-direction: column;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.428),
+        rgba(255,255,255,0.3) 
+    );
+    position: absolute;
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    top: 75%;
+    left: 80%;
+    backdrop-filter: blur(30rem);
+    border-radius: 1rem;
+       
+}   
+
+.header{
+        margin-top:  10px;
+        margin-left: 10%;
+        display: flex;
+        background-color: rgba(255, 255, 255, 0.3);
+        color: #050505;
+        padding: 10px 20%;
+        width: 80%;
+        border: none;
+        border-radius: 30px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 50% 50% 50% 50% 50%;
+    justify-content: center;
+    grid-template-rows: 0px 0px;
+    gap: 20px;
+    padding: 10px;
+  }

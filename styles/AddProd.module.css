@@ -1,0 +1,45 @@
+
+.pageBg {
+    min-height: 100vh;
+    background: linear-gradient(to right top, #3965e9a9, #0a8df8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.addcontainer{
+    background: white;
+    min-height: 80vh;
+    width: 80%;
+    display: flexbox;
+    flex-direction: column;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.428),
+        rgba(255,255,255,0.3) 
+    );
+    position: absolute;
+    top: 8%;
+    align-items: center;
+    backdrop-filter: blur(30rem);
+    border-radius: 1rem;
+       
+}   
+
+.h1{
+    font-size: x-large;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textfield{
+    display: block;
+    outline: none;
+    box-sizing: border-box;
+    width: 50%;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
